@@ -1,0 +1,20 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3707
+
+lemon256 is a colorscheme written for 256-color term only.
+
+It uses  solarized ( https://github.com/altercation/vim-colors-solarized/ ) as template and have some nice features.
+You can get details in the file.
+
+* Screenshot: http://i.imgur.com/wMDdo.png
+
+* Bitbucket: https://bitbucket.org/vayn/colorschemes
+
+lemon256 can work with other colorscheme like this:
+
+>>>
+    if has('gui_running')
+        colorscheme diablo3
+    else
+        colorscheme lemon256
+    endif
+<<<
